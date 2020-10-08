@@ -1,3 +1,4 @@
+require_relative '.../config/environment.rb'
 module Memorable
   
   def self.reset_all
