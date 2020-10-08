@@ -4,8 +4,8 @@ require_relative './memorable.rb'
 class Artist
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  extend Findable
-  include PARAMABLE
+  #extend Findable
+  #include PARAMABLE
   
   attr_accessor :name
   attr_reader :songs
